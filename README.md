@@ -44,6 +44,17 @@ in the same way as the registry's built-in notification agents.
 See [here](https://github.com/UKGovLD/registry-core/wiki/Notification) for documentation on how to configure
 the standard monitoring and notification components.
 
+### Pulsar Configuration
+
+You can configure the Pulsar connection by defining a [ClientConfigurationData](http://pulsar.apache.org/api/client/2.2.0/index.html?org/apache/pulsar/client/impl/conf/ClientConfigurationData.html)
+instance.
+This must specify the `serviceUrl` at least, but all of the properties listed in the Javadoc are supported.
+
+To authenticate the registry client with your Pulsar server,
+use the `authPluginClassName` and `authParams` properties.
+The values of these properties will depend on your choice of authentication system.
+Use these [Java examples]( https://pulsar.apache.org/docs/en/client-libraries-java/#authentication) as a guide.
+
 #### Example
 ```
 pulsarConfig = org.apache.pulsar.client.impl.conf.ClientConfigurationData
