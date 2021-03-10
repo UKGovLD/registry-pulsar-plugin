@@ -9,19 +9,20 @@ In Tomcat, you can do this by adding the JAR and the necessary dependencies to t
 Alternatively, you can create a new web app which extends the registry with the plugin functionality.
 You should build the new WAR using a Maven project which has the `registry-core` WAR, classes
 and `registry-pulsar-plugin` artifacts as dependencies.
+See [here](https://github.com/epimorphics/registry-pulsar-ext) for an example of such a project.
  
 #### Example
 ```
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.2.1-SNAPSHOT</version>
+    <version>2.3.0</version>
     <type>war</type>
 </dependency>
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.2.1-SNAPSHOT</version>
+    <version>2.3.0</version>
     <classifier>classes</classifier>
 </dependency>
 <dependency>
