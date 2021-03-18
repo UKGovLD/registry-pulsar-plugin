@@ -70,7 +70,7 @@
 		<repository>
 			<id>ukgovld-s3-release</id>
 			<name>UKGovLD release repository</name>
-			<url>s3://ukgovld/release</url>
+			<url>http://ukgovld.s3-eu-west-1.amazonaws.com/release</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -81,7 +81,7 @@
 		<repository>
 			<id>ukgovld-s3-snapshot</id>
 			<name>UKGovLD snapshot repository</name>
-			<url>s3://ukgovld/snapshot</url>
+			<url>http://ukgovld.s3-eu-west-1.amazonaws.com/snapshot</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
