@@ -28,7 +28,7 @@ See [here](https://github.com/epimorphics/registry-pulsar-ext) for an example of
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-pulsar-plugin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
