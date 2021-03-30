@@ -1,4 +1,4 @@
-# registry-pulsar-plugin
+# Registry Pulsar Plugin
 Pulsar notification plugin for the [Linked Data Registry](https://github.com/UKGovLD/registry-core).
 
 # Installation
@@ -7,11 +7,11 @@ This will produce a set of JAR files in the `target` directory.
 
 To install the plugin **without dependencies**, add the `registry-pulsar-plugin-{version}.jar` JAR
 to your LD registry deployment.
-In Tomcat, you can do this by adding the JAR and any missing dependencies to the `lib` directory of the registry webapp.
+In Tomcat, you can do this by adding the JAR and any missing dependencies to the `WEB-INF/lib` directory of the registry webapp.
 The full set of dependencies can be found in the `target/lib` directory after packaging. 
 
 To install the plugin **with dependencies**, add the `registry-pulsar-plugin-{version}-jar-with-dependencies.jar` JAR
-to your LD registry deployment.
+to the `WEB-INF/lib` directory of the registry webapp.
 
 Alternatively, you can create a new web app which extends the registry with the plugin functionality.
 You should build the new WAR using a Maven project which has the `registry-core` WAR, classes
