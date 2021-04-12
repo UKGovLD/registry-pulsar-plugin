@@ -23,13 +23,13 @@ See [here](https://github.com/epimorphics/registry-pulsar-ext) for an example of
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
     <type>war</type>
 </dependency>
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
     <classifier>classes</classifier>
 </dependency>
 <dependency>
