@@ -23,13 +23,13 @@ See [here](https://github.com/epimorphics/registry-pulsar-ext) for an example of
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.3.1</version>
+    <version>2.3.15</version>
     <type>war</type>
 </dependency>
 <dependency>
     <groupId>com.github.ukgovld</groupId>
     <artifactId>registry-core</artifactId>
-    <version>2.3.1</version>
+    <version>2.3.15</version>
     <classifier>classes</classifier>
 </dependency>
 <dependency>
@@ -55,7 +55,7 @@ the standard monitoring and notification components.
 ### Pulsar Configuration
 
 You can configure the Pulsar connection by defining a [ClientConfigurationData](http://pulsar.apache.org/api/client/2.2.0/index.html?org/apache/pulsar/client/impl/conf/ClientConfigurationData.html)
-instance.
+instance in your `app.conf`.
 This must specify the `serviceUrl` at least, but all of the properties listed in the Javadoc are supported.
 
 To authenticate the registry client with your Pulsar server,
