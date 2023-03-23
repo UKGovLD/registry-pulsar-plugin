@@ -4,7 +4,7 @@
 
 	<groupId>com.github.ukgovld</groupId>
 	<artifactId>registry-pulsar-plugin</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -14,7 +14,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:UKGovLD/registry-pulsar-plugin.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>registry-pulsar-plugin-1.0.2</tag>
 	</scm>
 
 	<dependencies>
